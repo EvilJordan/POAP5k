@@ -1,4 +1,4 @@
-# Ethereum POAP 5k from [Ethstaker](https://www.reddit.com/r/ethstaker/)
+# Ethereum POAP 5k from [EthStaker](https://www.reddit.com/r/ethstaker/)
 > https://old.reddit.com/r/ethfinance/comments/qkxqge/daily_general_discussion_november_2_2021/hj1082t/
 >
 > The Eth to $4k POAP was a pretty big hit here, and the EthStaker team is REALLY excited about distributing an Eth to $5k POAP. The problem is that POAP is clamping down on POAP farmers, so we needed a new approach. We've decided to offer "Eth to $5k" POAPs to anyone who makes any donation to EthStaker.eth between now and 24 hours after we hit $5k (this gives you a chance to save on gas fees). While we certainly appreciate generous donations, any donation is welcome ASSUMING gas + your donation exceeds $10 (This is honestly about spam reduction). Donations can be sent on mainnet to Ethstaker.eth. If you prefer to donate through another channel, just comment below and we'll look into it.
