@@ -15,6 +15,8 @@
 > Let me be superphiz for a minute: I love giving out POAPs and I hate taking money. I WILL accept money for EthStaker because it benefits all of us, and I want everyone to enjoy POAP. If you get butthurt by this kind of thing please keep in mind that our only goal is community service. There is no personal gain here.
 >
 > This is the first announcement of this, I'm sure things will evolve as we get closer.
+
+tl;dr: [Here's the list](https://github.com/EvilJordan/POAP5k/blob/main/recipients.txt) 
 ---
 ## Criteria
 1. Donate a minimum of $10 (gas fee + value) to EthStaker anytime between November 2nd, 2021 00:00:00 GMT and 24 hours after $5,000 USD is reached[^ATH].
