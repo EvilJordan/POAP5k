@@ -40,7 +40,7 @@ Here are the relevant 0x owner addresses:
 * `0xD165df4296C85e780509fa1eace0150d945d49Fd` (received ownership on 2020-11-28)
 
 #### Mainnet
-Etherscan makes pulling our list of potential POAP recipients easy. While one can use the API (this will come later for the L2 methods, probably, and, potentially, replace the spreadsheet method for Mainnet if I have enough time), Mainnet has a quick `EXPORT to CSV` function for both tradtional ETH transfers and ERC-20 token transfers. Here are our steps:
+Etherscan makes pulling our list of potential POAP recipients easy. While one can use the API, Mainnet has a quick `EXPORT to CSV` function for both tradtional ETH transfers and ERC-20 token transfers. Here are our steps:
 1. Export all Transfers from 2021-11-02 through today
 2. Export all Token Transfers from 2021-11-02 through today
 3. Import CSV into a spreadsheet and filter by our criteria
