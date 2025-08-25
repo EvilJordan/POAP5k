@@ -1,4 +1,7 @@
 # Ethereum POAP 5k from [EthStaker](https://www.reddit.com/r/ethstaker/)
+
+## 🚨 THE LIST IS NOT COMPLETE. THIS IS A WORK IN PROGRESS. DO NOT PANIC!!! 🚨
+
 > https://old.reddit.com/r/ethfinance/comments/qkxqge/daily_general_discussion_november_2_2021/hj1082t/
 >
 > The Eth to $4k POAP was a pretty big hit here, and the EthStaker team is REALLY excited about distributing an Eth to $5k POAP. The problem is that POAP is clamping down on POAP farmers, so we needed a new approach. We've decided to offer "Eth to $5k" POAPs to anyone who makes any donation to EthStaker.eth between now and 24 hours after we hit $5k (this gives you a chance to save on gas fees). While we certainly appreciate generous donations, any donation is welcome ASSUMING gas + your donation exceeds $10 (This is honestly about spam reduction). Donations can be sent on mainnet to Ethstaker.eth. If you prefer to donate through another channel, just comment below and we'll look into it.
@@ -16,7 +19,7 @@
 >
 > This is the first announcement of this, I'm sure things will evolve as we get closer.
 
-tl;dr: [Here's the list](https://github.com/EvilJordan/POAP5k/blob/main/recipients.txt) 
+tl;dr: [Here's the (incomplete) list](https://github.com/EvilJordan/POAP5k/blob/main/recipients.txt) 
 ---
 ## Criteria
 1. Donate a minimum of $10 (gas fee + value) to EthStaker anytime between November 2nd, 2021 00:00:00 GMT and 24 hours after $5,000 USD is reached[^ATH].
@@ -52,5 +55,6 @@ Concerning token transfers on Mainnet, Etherscan includes a column named `USDVal
 #### L2s
 All listed L2s have similar block explorers like Etherscan, so the manual extraction of the data is much the same as Mainnet.
 
+---
 [^ATH]: Link to ATH data source will go here.
 [^USDValueDayOfTx]: For an as-of-yet unknown reason, the `USDValueDayOfTx` value is not always populated. Luckily, we're almost always dealing in stables, so it's easy to calculate, but I am unclear as to what's going on with Etherscan's export.
