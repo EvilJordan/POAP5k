@@ -45,4 +45,6 @@ Etherscan makes pulling our list of potential POAP recipients easy. While one ca
 
 Concerning the traditional ETH transfer data, we are lucky that Etherscan also includes the `Historical Price` for ETH as an exported column in our data. This allows the quick addition of a new column, `Historical Value`, with the formula: `AMOUNT IN * HISTORICAL PRICE`. We can then filter on any value in this column that is `>= 10`, while also excluding any transfer that has an `AMOUNT OUT` value `> 0`. We are also only concerned with transfers with the `METHOD = "Transfer"`, but based on our other criteria, filtering on this column is unnecessary.
 
-Concerning token transfers on Mainnet, Etherscan includes a column named `USDValueDayOfTx` that does exactly what we hope. We can filter on this column for `>= 10` and make sure to only look at transfers `to` our 0x address.
+Concerning token transfers on Mainnet, Etherscan includes a column named `USDValueDayOfTx`[^USDValueDayOfTx] that does exactly what we hope. We can filter on this column for `>= 10` and make sure to only look at transfers `to` our 0x address.
+
+[^USDValueDayOfTx]: For an as-of-yet unknown reason, the `USDValueDayOfTx` value is not always populated. Luckily, we're almost always dealing in stables, so it's easy to calculate, but I am unclear as to what's going on with Etherscan's export.
