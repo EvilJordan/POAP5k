@@ -28,7 +28,7 @@
 	* xDAI
 	* Did we miss one that you've used? Let me \[/u/eviljordan\], or us, know!
 
-### Data, Notes and Methodology
+### Data, Notes, and Methodology
 The ethstaker.eth ENS' underlying 0x owner address has changed a few times over the years. We only care about 0x owner addresses from November 2nd, 2021 until now. That's about 1400 days ago.
 
 We can see ownership changes on Etherscan by looking at the [ethstaker.eth NFT transactions](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/19983403853102940524743945488147032720542313115197237752731031353866392940795).
