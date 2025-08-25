@@ -24,7 +24,6 @@
 	* Optimism
 	* Base
 	* Polygon
-	* Avalanche
 	* xDAI (Gnosis)
 	* Did we miss one that you've used? Let me \[/u/eviljordan\], or us, know!
 ---
