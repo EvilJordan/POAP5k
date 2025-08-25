@@ -27,7 +27,7 @@ tl;dr: [Here's the list](https://github.com/EvilJordan/POAP5k/blob/main/recipien
 	* Base
 	* Polygon
 	* xDAI (Gnosis)
-	* Did we miss one that you've used? Let me \[/u/eviljordan\], or us, know!
+	* Did we miss one that you've used? Let me \[/u/eviljordan\], or the EthStaker team (which I am not a part of), know!
 ---
 ### Data, Notes, and Methodology
 The ethstaker.eth ENS' underlying 0x owner address has changed a few times over the years. We only care about 0x owner addresses from November 2nd, 2021 until now. That's about 1400 days ago.
