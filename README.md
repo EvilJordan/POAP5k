@@ -25,7 +25,7 @@
 	* Base
 	* Polygon
 	* Avalanche
-	* xDAI
+	* xDAI (Gnosis)
 	* Did we miss one that you've used? Let me \[/u/eviljordan\], or us, know!
 ---
 ### Data, Notes, and Methodology
@@ -49,7 +49,7 @@ Concerning the traditional ETH transfer data, we are lucky that Etherscan also i
 Concerning token transfers on Mainnet, Etherscan includes a column named `USDValueDayOfTx`[^USDValueDayOfTx] that does exactly what we hope. We can filter on this column for `>= 10` and make sure to only look at transfers `to` our 0x address.
 
 #### L2s
-Arbitrum, Optimism, and Polygon have similar block explorers like Etherscan, so the manual extraction of the data is much the same as Mainnet
+All listed L2s have similar block explorers like Etherscan, so the manual extraction of the data is much the same as Mainnet.
 
 [^ATH]: Link to ATH data source will go here.
 [^USDValueDayOfTx]: For an as-of-yet unknown reason, the `USDValueDayOfTx` value is not always populated. Luckily, we're almost always dealing in stables, so it's easy to calculate, but I am unclear as to what's going on with Etherscan's export.
