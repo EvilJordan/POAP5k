@@ -17,7 +17,7 @@
 > This is the first announcement of this, I'm sure things will evolve as we get closer.
 ---
 ## Criteria
-1. Donate a minimum of $10 (gas fee + value) to EthStaker anytime between November 2nd, 2021 00:00:00 GMT and 24 hours after $5,000 USD is reached.
+1. Donate a minimum of $10 (gas fee + value) to EthStaker anytime between November 2nd, 2021 00:00:00 GMT and 24 hours after $5,000 USD is reached[^ATH].
 2. Donations must be received by EthStaker at ethstaker.eth via Ethereum Mainnet, or any valid L2.
 3. List of L2s:  
 	* Arbitrum
@@ -47,4 +47,5 @@ Concerning the traditional ETH transfer data, we are lucky that Etherscan also i
 
 Concerning token transfers on Mainnet, Etherscan includes a column named `USDValueDayOfTx`[^USDValueDayOfTx] that does exactly what we hope. We can filter on this column for `>= 10` and make sure to only look at transfers `to` our 0x address.
 
+[^ATH]: Link to ATH data source will go here.
 [^USDValueDayOfTx]: For an as-of-yet unknown reason, the `USDValueDayOfTx` value is not always populated. Luckily, we're almost always dealing in stables, so it's easy to calculate, but I am unclear as to what's going on with Etherscan's export.
