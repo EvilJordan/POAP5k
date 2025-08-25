@@ -27,7 +27,7 @@
 	* Avalanche
 	* xDAI
 	* Did we miss one that you've used? Let me \[/u/eviljordan\], or us, know!
-
+---
 ### Data, Notes, and Methodology
 The ethstaker.eth ENS' underlying 0x owner address has changed a few times over the years. We only care about 0x owner addresses from November 2nd, 2021 until now. That's about 1400 days ago.
 
@@ -38,6 +38,7 @@ Here are the relevant 0x owner addresses:
 * 0xF01CEe26213d1A6eaF16422241AE81f7C17B9f98 (received ownership on 2023-12-29)
 * 0xD165df4296C85e780509fa1eace0150d945d49Fd (received ownership on 2020-11-28)
 
+#### Mainnet
 Etherscan makes pulling our list of potential POAP recipients easy. While one can use the API (this will come later for the L2 methods, probably, and, potentially, replace the spreadsheet method for Mainnet if I have enough time), Mainnet has a quick `EXPORT to CSV` function for both tradtional ETH transfers and ERC-20 token transfers. Here are our steps:
 1. Export all Transfers from 2021-11-02 through today
 2. Export all Token Transfers from 2021-11-02 through today
@@ -46,6 +47,9 @@ Etherscan makes pulling our list of potential POAP recipients easy. While one ca
 Concerning the traditional ETH transfer data, we are lucky that Etherscan also includes the `Historical Price` for ETH as an exported column in our data. This allows the quick addition of a new column, `Historical Value`, with the formula: `AMOUNT IN * HISTORICAL PRICE`. We can then filter on any value in this column that is `>= 10`, while also excluding any transfer that has an `AMOUNT OUT` value `> 0`. We are also only concerned with transfers with the `METHOD = "Transfer"`, but based on our other criteria, filtering on this column is unnecessary.
 
 Concerning token transfers on Mainnet, Etherscan includes a column named `USDValueDayOfTx`[^USDValueDayOfTx] that does exactly what we hope. We can filter on this column for `>= 10` and make sure to only look at transfers `to` our 0x address.
+
+#### L2s
+Arbitrum, Optimism, and Polygon have similar block explorers like Etherscan, so the manual extraction of the data is much the same as Mainnet
 
 [^ATH]: Link to ATH data source will go here.
 [^USDValueDayOfTx]: For an as-of-yet unknown reason, the `USDValueDayOfTx` value is not always populated. Luckily, we're almost always dealing in stables, so it's easy to calculate, but I am unclear as to what's going on with Etherscan's export.
